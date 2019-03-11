@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [registration_suite (0)]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.hms.extentReport.ExtentReporterNG"/>
+  </listeners>
+  <test name="registration(failed)">
+    <classes>
+      <class name="com.hms.registration.TestEmergencyRegistration">
+        <methods>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="afterMethod"/>
+          <include name="testEmergencyRegistration"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.hms.registration.TestEmergencyRegistration -->
+    </classes>
+  </test> <!-- registration(failed) -->
+</suite> <!-- Failed suite [registration_suite (0)] -->

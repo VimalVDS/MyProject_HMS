@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [registration_suite]">
+  <test name="registration(failed)">
+    <classes>
+      <class name="com.hms.registration.TestEmergencyRegistration">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testEmergencyRegistration" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+          <include name="login"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.hms.registration.TestEmergencyRegistration -->
+    </classes>
+  </test> <!-- registration(failed) -->
+</suite> <!-- Failed suite [registration_suite] -->

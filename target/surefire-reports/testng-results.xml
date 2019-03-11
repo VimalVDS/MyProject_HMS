@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HMSMainSuite" duration-ms="0" started-at="2019-03-11T02:15:47Z" finished-at="2019-03-11T02:15:47Z">
+    <groups>
+    </groups>
+  </suite> <!-- HMSMainSuite -->
+  <suite name="registration_suite" duration-ms="19096" started-at="2019-03-11T02:15:03Z" finished-at="2019-03-11T02:15:22Z">
+    <groups>
+    </groups>
+    <test name="Permanentregistration" duration-ms="19096" started-at="2019-03-11T02:15:03Z" finished-at="2019-03-11T02:15:22Z">
+      <class name="com.hms.registration.TestPermanenetRegistration">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.hms.registration.TestPermanenetRegistration@20398b7c]" name="launchBrowser" is-config="true" duration-ms="15336" started-at="2019-03-11T07:44:48Z" finished-at="2019-03-11T07:45:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.hms.registration.TestPermanenetRegistration@20398b7c]" name="login" is-config="true" duration-ms="5342" started-at="2019-03-11T07:45:03Z" finished-at="2019-03-11T07:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.hms.registration.TestPermanenetRegistration@20398b7c]" name="beforeClass" is-config="true" duration-ms="1763" started-at="2019-03-11T07:45:08Z" finished-at="2019-03-11T07:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testPermanentRegistration(java.util.Map, java.lang.String)[pri:0, instance:com.hms.registration.TestPermanenetRegistration@20398b7c]" name="testPermanentRegistration" duration-ms="11864" started-at="2019-03-11T07:45:10Z" data-provider="testSamples" finished-at="2019-03-11T07:45:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Header-testcasename=testPermanentRegistration, testid=C005, testtype=sanity, Result=PASS, patientcategory=Self, title=Mr., firstname=rahul, lastname=kumar, dob=13-08-1992, age=25.0, gender=Male, maritalstatus=Single, religion=Hindu, primarylanguage=Telugu, address1=kukatpally, phone=9885373372, country=India, relation=Brother, patientidentifier=PAN Card, panno=AVPPR99C, nationality=Indian, vip=No, education=B.Tech, occupation=Employee, bloodgroup=A+, citizenship=Indian, seniorcitizen=Yes, pinorzip=532168, conform=Patient Registration Successfully}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPermanentRegistration -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hms.registration.TestPermanenetRegistration@20398b7c]" name="afterMethod" is-config="true" duration-ms="82" started-at="2019-03-11T07:45:22Z" finished-at="2019-03-11T07:45:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPermanentRegistration status=SUCCESS method=TestPermanenetRegistration.testPermanentRegistration(java.util.Map, java.lang.String)[pri:0, instance:com.hms.registration.TestPermanenetRegistration@20398b7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.hms.registration.TestPermanenetRegistration -->
+    </test> <!-- Permanentregistration -->
+  </suite> <!-- registration_suite -->
+  <suite name="registration_suite (0)" duration-ms="16131" started-at="2019-03-11T02:15:31Z" finished-at="2019-03-11T02:15:47Z">
+    <groups>
+    </groups>
+    <test name="registration" duration-ms="16131" started-at="2019-03-11T02:15:31Z" finished-at="2019-03-11T02:15:47Z">
+      <class name="com.hms.registration.TestEmergencyRegistration">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.hms.registration.TestEmergencyRegistration@3b0143d3]" name="launchBrowser" is-config="true" duration-ms="9174" started-at="2019-03-11T07:45:22Z" finished-at="2019-03-11T07:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.hms.registration.TestEmergencyRegistration@3b0143d3]" name="login" is-config="true" duration-ms="8110" started-at="2019-03-11T07:45:31Z" finished-at="2019-03-11T07:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.hms.registration.TestEmergencyRegistration@3b0143d3]" name="beforeClass" is-config="true" duration-ms="184" started-at="2019-03-11T07:45:39Z" finished-at="2019-03-11T07:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testEmergencyRegistration(java.util.Map, java.lang.String)[pri:0, instance:com.hms.registration.TestEmergencyRegistration@3b0143d3]" name="testEmergencyRegistration" duration-ms="7533" started-at="2019-03-11T07:45:40Z" data-provider="testSamples" finished-at="2019-03-11T07:45:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Header-testcasename=testEmergencyRegistration, testid=C005, testtype=regression, Result=PASS, patCat=Self, title=Mr., firstname=rahul, lastname=rahul, dob=13-08-1992, age=24, gender=Male, patIdentifier=PAN Card, pan=AVPPR99C, blood group=A+, address1=kukatpally, phone=9885373372, pin or zip=532168, conform=Patient Registration Successfully}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmergencyRegistration -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hms.registration.TestEmergencyRegistration@3b0143d3]" name="afterMethod" is-config="true" duration-ms="301" started-at="2019-03-11T07:45:47Z" finished-at="2019-03-11T07:45:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEmergencyRegistration status=SUCCESS method=TestEmergencyRegistration.testEmergencyRegistration(java.util.Map, java.lang.String)[pri:0, instance:com.hms.registration.TestEmergencyRegistration@3b0143d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.hms.registration.TestEmergencyRegistration -->
+    </test> <!-- registration -->
+  </suite> <!-- registration_suite (0) -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="registration_suite">
+<test name="Permanentregistration">
+<classes>
+<class name="com.hms.registration.TestPermanenetRegistration">
+<methods>
+<include name="testPermanentRegistration"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

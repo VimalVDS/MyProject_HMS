@@ -1,0 +1,16 @@
+com\corejava\Employee.class
+com\corejava\ExcelReading.class
+com\hms\login\LoginPage.class
+com\hms\util\DynamicTestDataReading.class
+com\corejava\PropertiesReadingDemo.class
+com\corejava\ArrayDemo.class
+com\hms\registration\EmergencyRegistration.class
+com\corejava\MapDemo.class
+com\hms\extentReport\ExtentReporterNG.class
+com\hms\registration\PermanentRegistrationPage.class
+com\hms\util\TestBaseClass.class
+com\hms\util\TempGenericActions.class
+com\hms\extentReport\TempExtent.class
+com\corejava\ListDemo.class
+com\corejava\CallByReference.class
+com\corejava\SetDemo.class

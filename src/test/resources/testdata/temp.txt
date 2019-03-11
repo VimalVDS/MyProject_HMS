@@ -1,0 +1,3 @@
+//*[@id="quick-press"]/p
+
+//*[@id="save-post"]
