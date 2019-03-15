@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="10.477">
+           time="10.815">
   <properties />
   
   
-            <testcase name="testPermanentRegistration" time="10.477" classname="com.hms.registration.TestPermanenetRegistration" />
+            <testcase name="testPermanentRegistration" time="10.815" classname="com.hms.registration.TestPermanenetRegistration" />
       
 </testsuite>

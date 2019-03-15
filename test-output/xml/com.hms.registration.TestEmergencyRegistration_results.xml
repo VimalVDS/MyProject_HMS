@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="7.095">
+           time="7.717">
   <properties />
   
   
-            <testcase name="testEmergencyRegistration" time="7.095" classname="com.hms.registration.TestEmergencyRegistration" />
+            <testcase name="testEmergencyRegistration" time="7.717" classname="com.hms.registration.TestEmergencyRegistration" />
       
 </testsuite>
