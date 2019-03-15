@@ -122,3 +122,9 @@
 2019-03-11 07:45:39 INFO  hms.util.TestBaseClass:100 - Login is done
 2019-03-11 07:45:47 INFO  hms.util.TestBaseClass:144 - screenshot capturing is started
 2019-03-11 07:45:47 INFO  hms.util.TestBaseClass:153 - screenshot capturing is done..
+2019-03-15 17:02:14 INFO  hms.util.TestBaseClass:47 - Project path reading
+2019-03-15 17:02:14 INFO  hms.util.TestBaseClass:59 - Reading properties file is done
+2019-03-15 17:02:14 INFO  hms.util.TestBaseClass:47 - Project path reading
+2019-03-15 17:02:14 INFO  hms.util.TestBaseClass:59 - Reading properties file is done
+2019-03-15 17:02:40 INFO  hms.util.TestBaseClass:100 - Login is done
+2019-03-15 17:02:58 INFO  hms.util.TestBaseClass:100 - Login is done
