@@ -16,6 +16,7 @@ public class ArrayDemo {
 		// 2nd update from eclipse
 		// 2nd update from github
 		// 3rd update from eclipse
+		// 3rd update from github
 		System.out.println(arr.length);
 		
 		for(int kosmik:arr){
@@ -25,7 +26,7 @@ public class ArrayDemo {
 		for(int i=0;i<arr.length;i++){
 			System.out.println(arr[i]);
 		}
-		
+		// String operations
 		String[] strings=new String[]{"kosmik","vimal","srinivas"};
 		
 		for(String str:strings){
