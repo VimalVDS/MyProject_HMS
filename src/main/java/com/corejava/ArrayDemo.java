@@ -18,6 +18,7 @@ public class ArrayDemo {
 		// 3rd update from eclipse
 		// 3rd update from github
 		// middle comment from github
+		// middle comment from github 2
 		// 4th update from github
 		System.out.println(arr.length);
 		
