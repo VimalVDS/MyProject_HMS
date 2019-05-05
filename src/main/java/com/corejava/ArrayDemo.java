@@ -17,6 +17,8 @@ public class ArrayDemo {
 		// 2nd update from github
 		// 3rd update from eclipse
 		// 3rd update from github
+		
+		// 4th update from github
 		System.out.println(arr.length);
 		
 		for(int kosmik:arr){
