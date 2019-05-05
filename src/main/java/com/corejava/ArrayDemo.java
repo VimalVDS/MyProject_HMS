@@ -16,6 +16,7 @@ public class ArrayDemo {
 		// 2nd update from eclipse
 		// 2nd update from github
 		// 3rd update from eclipse
+		// middle comment from github
 		// 3rd update from github
 		// middle comment from github
 		// middle comment from github 2
