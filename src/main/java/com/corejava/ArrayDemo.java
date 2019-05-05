@@ -12,6 +12,7 @@ public class ArrayDemo {
 		arr[4]=14;
 		//arr[5]=100;
 		// 1st update from eclipse
+		// 1st update from github
 		System.out.println(arr.length);
 		
 		for(int kosmik:arr){
